@@ -101,7 +101,7 @@ const kingdoms = {
             name: "Kesultanan Aceh Darussalam",
             location: "Aceh",
             period: "1496–awal abad ke-20",
-            image: "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=900",
+            image: "Koeta Radja, Missigit_(Mosque at Kuta Raja_Banda Aceh) ca_ 1910.jpg",
             short: "Kesultanan yang berkembang sebagai pusat perdagangan dan pendidikan Islam.",
             history: "Kesultanan Aceh Darussalam berkembang di ujung utara Pulau Sumatra. Kerajaan ini memiliki peran penting dalam perdagangan dan penyebaran Islam.",
             king: "Sultan Ali Mughayat Syah dan Sultan Iskandar Muda.",
