@@ -10,7 +10,7 @@ const kingdoms = {
             name: "Kerajaan Kutai",
             location: "Kalimantan Timur",
             period: "Sekitar abad ke-4 Masehi",
-            image: "https://images.unsplash.com/photo-1590123732197-e7079d9b8b89?w=900",
+            image: "Sejarah Kerajaan Kutai _ Raja, Sistem Pemerintahan, Peninggalan, Masa Kejayaan dan Runtuhnya Kerajaan Kutai.jpg",
             short: "Salah satu kerajaan Hindu tertua yang diketahui di Indonesia.",
             history: "Kerajaan Kutai merupakan kerajaan bercorak Hindu yang berkembang di wilayah Kalimantan Timur, tepatnya di sekitar Sungai Mahakam. Keberadaannya diketahui melalui penemuan prasasti Yupa yang menggunakan bahasa Sanskerta dan huruf Pallawa.",
             king: "Kudungga, Aswawarman, dan Mulawarman.",
