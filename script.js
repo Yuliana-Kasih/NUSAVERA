@@ -65,7 +65,7 @@ const kingdoms = {
             name: "Kerajaan Singasari",
             location: "Jawa Timur",
             period: "1222–1292 Masehi",
-            image: "https://images.unsplash.com/photo-1584810359583-96fc3448beaa?w=900",
+            image: "MAKALAH SEJARAH SINGASARI.jpg",
             short: "Kerajaan yang didirikan oleh Ken Arok.",
             history: "Kerajaan Singasari didirikan oleh Ken Arok pada tahun 1222 setelah mengalahkan Kerajaan Kediri. Kerajaan ini kemudian berkembang menjadi salah satu kekuatan penting di Jawa Timur.",
             king: "Ken Arok, Anusapati, dan Kertanegara.",
