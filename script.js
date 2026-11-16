@@ -76,7 +76,7 @@ const kingdoms = {
             name: "Kerajaan Majapahit",
             location: "Jawa Timur",
             period: "1293–sekitar 1527 Masehi",
-            image: "https://images.unsplash.com/photo-1590123732197-e7079d9b8b89?w=900",
+            image: "10 Incredible Places To Visit In Yogyakarta On Your 2026 Trip.jpg",
             short: "Kerajaan besar yang mencapai kejayaan pada masa Hayam Wuruk.",
             history: "Majapahit didirikan oleh Raden Wijaya pada tahun 1293 di Jawa Timur. Kerajaan ini berkembang menjadi salah satu kerajaan besar dalam sejarah Nusantara.",
             king: "Raden Wijaya, Hayam Wuruk, dan Wikramawardhana.",
