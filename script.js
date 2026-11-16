@@ -123,7 +123,7 @@ const kingdoms = {
             name: "Kerajaan Pajang",
             location: "Jawa Tengah",
             period: "Sekitar abad ke-16",
-            image: "https://images.unsplash.com/photo-1606402182511-6e6e4c7c2a1e?w=900",
+            image: "Petilasan Keraton Kerajaan Pajang, Kartasura - Sukoharjo.jpg",
             short: "Kerajaan Islam di Jawa setelah masa Demak.",
             history: "Pajang merupakan kerajaan Islam yang berkembang di wilayah Jawa Tengah setelah kemunduran Kerajaan Demak.",
             king: "Sultan Hadiwijaya atau Jaka Tingkir.",
