@@ -54,7 +54,7 @@ const kingdoms = {
             name: "Kerajaan Kediri",
             location: "Jawa Timur",
             period: "1042–1222 Masehi",
-            image: "https://images.unsplash.com/photo-1604999333679-b86d54738315?w=900",
+            image: "Sejarah Kerajaan Kediri _ Silsilah Raja, Peninggalan, Kehidupan, Masa Kejayaan dan Runtuhnya.jpg",
             short: "Kerajaan yang terkenal dengan perkembangan sastra.",
             history: "Kerajaan Kediri atau Panjalu berkembang di Jawa Timur setelah pembagian Kerajaan Medang. Kerajaan ini memiliki perkembangan penting dalam bidang pemerintahan, ekonomi, dan kesusastraan.",
             king: "Jayabaya, Kameswara, dan Kertajaya.",
