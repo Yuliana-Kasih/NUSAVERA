@@ -12,7 +12,27 @@ const kingdoms = {
             period: "Sekitar abad ke-4 Masehi",
             image: "Sejarah Kerajaan Kutai _ Raja, Sistem Pemerintahan, Peninggalan, Masa Kejayaan dan Runtuhnya Kerajaan Kutai.jpg",
             short: "Salah satu kerajaan Hindu tertua yang diketahui di Indonesia.",
-            history: "Kerajaan Kutai merupakan kerajaan bercorak Hindu yang berkembang di wilayah Kalimantan Timur, tepatnya di sekitar Sungai Mahakam. Keberadaannya diketahui melalui penemuan prasasti Yupa yang menggunakan bahasa Sanskerta dan huruf Pallawa.",
+            history: "Kerajaan Kutai merupakan salah satu kerajaan Hindu tertua yang diketahui pernah berdiri di Nusantara. Kerajaan ini berkembang sekitar abad ke-4 Masehi di wilayah Muara Kaman, tepi Sungai Mahakam, Kalimantan Timur. Keberadaan Kutai diketahui melalui prasasti Yupa, yaitu tiang batu bertuliskan bahasa Sanskerta dengan huruf Pallawa.
+
+Perkembangan kerajaan
+
+Kutai berkembang sebagai kerajaan bercorak Hindu, khususnya Hindu aliran Siwa. Letaknya di sekitar Sungai Mahakam mendukung kehidupan masyarakat melalui perdagangan, pertanian, dan hubungan dengan wilayah lain. Pengaruh budaya India terlihat dalam penggunaan bahasa Sanskerta, sistem pemerintahan kerajaan, serta pelaksanaan upacara keagamaan Hindu.
+
+Masa kejayaan
+
+Masa kejayaan Kutai dikenal pada masa pemerintahan Raja Mulawarman. Ia dikenal sebagai raja yang dermawan dan memiliki hubungan erat dengan kaum brahmana. Dalam prasasti Yupa disebutkan bahwa Mulawarman pernah memberikan hadiah berupa 20.000 ekor sapi kepada para brahmana di tempat suci bernama Waprakeswara.
+
+Raja-raja penting
+- Kudungga: tokoh awal yang disebut dalam prasasti Yupa.
+- Aswawarman: putra Kudungga yang dianggap sebagai pendiri keluarga kerajaan atau Wangsa Warman.
+- Mulawarman: raja yang dikenal membawa Kutai mencapai kemakmuran.
+Peninggalan sejarah
+
+Peninggalan utama Kutai adalah tujuh prasasti Yupa yang memuat informasi mengenai raja-raja dan kehidupan keagamaan pada masa itu.
+
+Kemunduran kerajaan
+
+Informasi mengenai akhir Kerajaan Kutai Martadipura masih terbatas. Wilayah Kutai kemudian mengalami perubahan kekuasaan dan muncul kerajaan-kerajaan lain di kawasan tersebut. Kutai Martadipura perlu dibedakan dari Kesultanan Kutai Kartanegara yang berkembang pada masa berikutnya.",
             king: "Kudungga, Aswawarman, dan Mulawarman.",
             glory: "Kerajaan Kutai berkembang pada masa pemerintahan Raja Mulawarman. Ia dikenal melalui prasasti Yupa yang mencatat pemberian hadiah kepada kaum Brahmana.",
             heritage: "Prasasti Yupa."
@@ -189,7 +209,7 @@ const kingdoms = {
             name: "Kerajaan Gowa-Tallo",
             location: "Sulawesi Selatan",
             period: "Berkembang sejak abad ke-14; Islam diterima pada awal abad ke-17",
-            image: "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=900",
+            image: "Balla'_Lompoa_Museum.jpg",
             short: "Kerajaan kembar yang berkembang menjadi kekuatan maritim di Sulawesi Selatan.",
             history: "Gowa dan Tallo merupakan dua kerajaan yang menjalin hubungan politik erat di Sulawesi Selatan. Keduanya kemudian dikenal sebagai Kerajaan Makassar setelah berkembangnya Islam.",
             king: "Sultan Alauddin dan Sultan Hasanuddin.",
