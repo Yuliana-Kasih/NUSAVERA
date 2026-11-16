@@ -90,7 +90,7 @@ const kingdoms = {
             name: "Kerajaan Samudra Pasai",
             location: "Aceh",
             period: "Sekitar abad ke-13 hingga ke-16",
-            image: "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=900",
+            image: "download (25).jpg",
             short: "Salah satu kerajaan Islam awal di Nusantara.",
             history: "Samudra Pasai berkembang di wilayah pesisir utara Sumatra. Kerajaan ini menjadi pusat perdagangan dan penyebaran Islam di kawasan Selat Malaka.",
             king: "Sultan Malik al-Saleh.",
