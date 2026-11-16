@@ -134,7 +134,7 @@ const kingdoms = {
             name: "Mataram Islam",
             location: "Jawa Tengah dan Yogyakarta",
             period: "1586–1755 Masehi",
-            image: "https://images.unsplash.com/photo-1590123732197-e7079d9b8b89?w=900",
+            image: "download (26).jpg",
             short: "Kerajaan Islam yang mencapai kejayaan pada masa Sultan Agung.",
             history: "Mataram Islam berkembang di wilayah Jawa Tengah dan kemudian memiliki pusat kekuasaan di kawasan Yogyakarta. Kerajaan ini menjadi salah satu kekuatan besar di Jawa.",
             king: "Panembahan Senopati dan Sultan Agung.",
