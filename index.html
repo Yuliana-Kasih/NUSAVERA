@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUSAVERA | Perjalanan Menelusuri Sejarah Kerajaan Nusantara</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#" class="logo" onclick="showHome()">
+            NUSA<span>VERA</span>
+        </a>
+
+        <nav>
+            <a href="#" onclick="showHome()">Beranda</a>
+            <a href="#sejarah" onclick="showHome()">Sejarah</a>
+            <a href="#tentang">Tentang</a>
+        </nav>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </header>
+
+    <!-- HALAMAN UTAMA -->
+    <main id="homePage">
+
+        <section class="hero">
+            <div class="hero-content">
+                <p class="subtitle">EXPLORE THE LEGACY OF NUSANTARA</p>
+
+                <h1>Menelusuri Jejak<br>
+                    <span>Kerajaan Nusantara</span>
+                </h1>
+
+                <p class="hero-description">
+                    Mengenal sejarah, kejayaan, dan peninggalan
+                    kerajaan Hindu-Buddha serta kerajaan Islam
+                    yang pernah berkembang di Indonesia.
+                </p>
+
+                <a href="#sejarah" class="hero-button">
+                    Mulai Menjelajah →
+                </a>
+            </div>
+        </section>
+
+        <!-- PENGENALAN -->
+        <section class="introduction" id="tentang">
+            <p class="section-label">MENGENAL SEJARAH</p>
+
+            <h2>Warisan Sejarah Nusantara</h2>
+
+            <p>
+                Indonesia memiliki sejarah panjang sebelum terbentuk
+                menjadi negara seperti sekarang. Pada masa lampau,
+                berbagai kerajaan berkembang di wilayah Nusantara.
+
+                Di antaranya adalah kerajaan bercorak Hindu-Buddha
+                dan kerajaan bercorak Islam. Kerajaan-kerajaan tersebut
+                memiliki peran penting dalam perkembangan agama,
+                budaya, perdagangan, pemerintahan, dan kehidupan
+                masyarakat Indonesia.
+            </p>
+        </section>
+
+        <!-- PILIHAN KERAJAAN -->
+        <section class="kingdom-section" id="sejarah">
+
+            <div class="section-heading">
+                <p class="section-label">JELAJAHI MASA LALU</p>
+                <h2>Temukan Jejak Kerajaan</h2>
+                <p>Pilih salah satu kategori untuk mulai menjelajahi sejarah.</p>
+            </div>
+
+            <div class="category-container">
+
+                <div class="category-card" onclick="showKingdoms('hindu')">
+                    <img src="https://images.unsplash.com/photo-1590123732197-e7079d9b8b89?w=900" alt="Kerajaan Hindu Buddha">
+
+                    <div class="category-overlay">
+                        <span>KATEGORI 01</span>
+                        <h3>Kerajaan Hindu-Buddha</h3>
+                        <p>Jelajahi sejarah kerajaan Hindu dan Buddha di Nusantara.</p>
+                        <button>Jelajahi Sekarang →</button>
+                    </div>
+                </div>
+
+                <div class="category-card" onclick="showKingdoms('islam')">
+                    <img src="https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=900" alt="Kerajaan Islam">
+
+                    <div class="category-overlay">
+                        <span>KATEGORI 02</span>
+                        <h3>Kerajaan Islam</h3>
+                        <p>Kenali perkembangan kerajaan Islam di Indonesia.</p>
+                        <button>Jelajahi Sekarang →</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <h2>NUSAVERA</h2>
+            <p>Uncover the Past, Discover the Legacy.</p>
+            <p class="copyright">© 2026 NUSAVERA. Jejak Sejarah Nusantara.</p>
+        </footer>
+
+    </main>
+
+    <!-- HALAMAN DAFTAR KERAJAAN -->
+    <main id="kingdomPage" class="hidden">
+
+        <section class="page-banner">
+            <button class="back-button" onclick="showHome()">← Kembali ke Beranda</button>
+
+            <p class="section-label" id="kingdomLabel">SEJARAH NUSANTARA</p>
+            <h1 id="kingdomTitle">Daftar Kerajaan</h1>
+            <p id="kingdomDescription"></p>
+        </section>
+
+        <section class="kingdom-list-section">
+
+            <div class="section-heading">
+                <h2>Jelajahi Kerajaan</h2>
+                <p>Pilih kerajaan untuk membaca sejarah dan peninggalannya.</p>
+            </div>
+
+            <div class="kingdom-grid" id="kingdomGrid"></div>
+
+        </section>
+
+        <footer>
+            <h2>NUSAVERA</h2>
+            <p>Uncover the Past, Discover the Legacy.</p>
+            <p class="copyright">© 2026 NUSAVERA</p>
+        </footer>
+
+    </main>
+
+    <!-- HALAMAN DETAIL -->
+    <main id="detailPage" class="hidden">
+
+        <section class="detail-section">
+
+            <button class="back-button" onclick="backToKingdoms()">
+                ← Kembali ke Daftar Kerajaan
+            </button>
+
+            <div id="detailContent"></div>
+
+        </section>
+
+        <footer>
+            <h2>NUSAVERA</h2>
+            <p>Uncover the Past, Discover the Legacy.</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
