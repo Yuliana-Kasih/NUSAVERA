@@ -21,7 +21,7 @@ const kingdoms = {
             name: "Kerajaan Tarumanegara",
             location: "Jawa Barat",
             period: "Sekitar abad ke-4 hingga ke-7 Masehi",
-            image: "https://images.unsplash.com/photo-1604999333679-b86d54738315?w=900",
+            image: "Sejarah Kerajaan Tarumanegara _ Silsilah Raja, Peninggalan, Kehidupan, Masa Kejayaan dan Runtuhnya.jpg",
             short: "Kerajaan Hindu yang terkenal dengan Raja Purnawarman.",
             history: "Tarumanegara merupakan kerajaan bercorak Hindu yang berkembang di wilayah Jawa Barat. Kerajaan ini diketahui melalui berbagai prasasti yang menceritakan pemerintahan Raja Purnawarman.",
             king: "Raja Purnawarman.",
