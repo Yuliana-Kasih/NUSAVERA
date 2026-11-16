@@ -112,7 +112,7 @@ const kingdoms = {
             name: "Kerajaan Demak",
             location: "Jawa Tengah",
             period: "Sekitar akhir abad ke-15 hingga pertengahan abad ke-16",
-            image: "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=900",
+            image: "Masjid Agung Demak.jpg",
             short: "Kerajaan Islam penting dalam perkembangan Islam di Pulau Jawa.",
             history: "Kerajaan Demak berkembang di pesisir utara Jawa Tengah. Kerajaan ini memiliki peran besar dalam penyebaran Islam dan perdagangan di pesisir Jawa.",
             king: "Raden Patah, Pati Unus, dan Sultan Trenggana.",
