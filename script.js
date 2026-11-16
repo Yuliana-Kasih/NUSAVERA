@@ -145,7 +145,7 @@ const kingdoms = {
             name: "Kesultanan Cirebon",
             location: "Jawa Barat",
             period: "Sekitar abad ke-15 hingga ke-17",
-            image: "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=900",
+            image: "538c9_kerajaan-cirebon.jpg",
             short: "Pusat perkembangan Islam dan budaya di pesisir Jawa Barat.",
             history: "Kesultanan Cirebon berkembang di pesisir utara Jawa Barat. Kerajaan ini memiliki peran penting dalam perdagangan dan penyebaran Islam.",
             king: "Pangeran Cakrabuana dan Sunan Gunung Jati.",
