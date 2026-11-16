@@ -12,8 +12,8 @@ const kingdoms = {
             period: "Sekitar abad ke-4 Masehi",
             image: "Sejarah Kerajaan Kutai _ Raja, Sistem Pemerintahan, Peninggalan, Masa Kejayaan dan Runtuhnya Kerajaan Kutai.jpg",
             short: "Salah satu kerajaan Hindu tertua yang diketahui di Indonesia.",
-            history: "Kerajaan Kutai (secara resmi disebut Kerajaan Kutai Martadipura atau Martapura) adalah kerajaan bercorak Hindu tertua di Nusantara yang berdiri sekitar abad ke-4 Masehi (sekitar tahun 400 M) di Muara Kaman, Kalimantan Timur, di sepanjang aliran Sungai Mahakam." ,
-            king: "Maharaja Mulawarman." ,
+            history: "Kerajaan Kutai (secara resmi disebut Kerajaan Kutai Martadipura atau Martapura) adalah kerajaan bercorak Hindu tertua di Nusantara yang berdiri sekitar abad ke-4 Masehi (sekitar tahun 400 M) di Muara Kaman, Kalimantan Timur, di sepanjang aliran Sungai Mahakam.",
+            king: "Maharaja Mulawarman.",
             glory: "Kerajaan Kutai berkembang pada masa pemerintahan Raja Mulawarman. Ia dikenal melalui prasasti Yupa yang mencatat pemberian hadiah kepada kaum Brahmana.",
             heritage: "Prasasti Yupa."
         },
