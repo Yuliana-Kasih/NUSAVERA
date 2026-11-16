@@ -178,7 +178,7 @@ const kingdoms = {
             name: "Kesultanan Tidore",
             location: "Maluku Utara",
             period: "Sekitar abad ke-15 hingga abad ke-20",
-            image: "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=900",
+            image: "Kadato_Kie.jpg",
             short: "Kesultanan yang berperan penting dalam perdagangan rempah.",
             history: "Kesultanan Tidore berkembang di Kepulauan Maluku dan menjadi salah satu kekuatan politik dan perdagangan penting di kawasan tersebut.",
             king: "Sultan Nuku.",
