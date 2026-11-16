@@ -167,7 +167,7 @@ const kingdoms = {
             name: "Kesultanan Ternate",
             location: "Maluku Utara",
             period: "Sekitar abad ke-13 hingga abad ke-20",
-            image: "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=900",
+            image: "Ternate,_Keraton.jpg",
             short: "Kesultanan yang terkenal dengan perdagangan cengkih.",
             history: "Kesultanan Ternate berkembang di Maluku Utara dan menjadi salah satu pusat perdagangan rempah-rempah di Nusantara.",
             king: "Sultan Zainal Abidin dan Sultan Baabullah.",
