@@ -43,7 +43,7 @@ const kingdoms = {
             name: "Kerajaan Mataram Kuno",
             location: "Jawa Tengah dan Jawa Timur",
             period: "Sekitar abad ke-8 hingga ke-11",
-            image: "https://images.unsplash.com/photo-1584810359583-96fc3448beaa?w=900",
+            image: "Sejarah Kerajaan Mataram Kuno Singkat Beserta Raja Raja dan Peninggalannya _ Perpustakaan_id.jpg",
             short: "Kerajaan yang meninggalkan warisan candi megah.",
             history: "Mataram Kuno merupakan kerajaan yang berkembang di Jawa Tengah dan kemudian sebagian pusat kekuasaannya berpindah ke Jawa Timur. Kerajaan ini memiliki dinasti Sanjaya yang bercorak Hindu dan Syailendra yang bercorak Buddha.",
             king: "Sanjaya, Rakai Panangkaran, dan Balitung.",
