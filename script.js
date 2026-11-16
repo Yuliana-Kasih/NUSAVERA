@@ -32,7 +32,7 @@ const kingdoms = {
             name: "Kerajaan Sriwijaya",
             location: "Sumatra",
             period: "Sekitar abad ke-7 hingga abad ke-13",
-            image: "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=900",
+            image: "Sejarah Kerajaan Sriwijaya dari Kejayaan Hingga Keruntuhannya · Satu Jam.jpg",
             short: "Kerajaan Buddha yang terkenal sebagai pusat perdagangan maritim.",
             history: "Sriwijaya merupakan kerajaan bercorak Buddha yang berkembang di Sumatra. Letaknya yang strategis menjadikan Sriwijaya sebagai kekuatan maritim dan pusat perdagangan penting di Asia Tenggara.",
             king: "Dapunta Hyang Sri Jayanasa dan Balaputradewa.",
