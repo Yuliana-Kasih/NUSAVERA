@@ -156,7 +156,7 @@ const kingdoms = {
             name: "Kesultanan Banten",
             location: "Banten",
             period: "Abad ke-16 hingga ke-19",
-            image: "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=900",
+            image: "Masjid di Banten, tahun 1880_.jpg",
             short: "Kerajaan Islam yang terkenal dengan perdagangan lada.",
             history: "Kesultanan Banten berkembang di wilayah pesisir barat Pulau Jawa. Letaknya yang strategis menjadikan Banten sebagai pusat perdagangan penting.",
             king: "Sultan Maulana Hasanuddin dan Sultan Ageng Tirtayasa.",
