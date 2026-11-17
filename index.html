@@ -69,6 +69,39 @@
                 masyarakat Indonesia.
             </p>
         </section>
+        
+<!-- SEARCH KERAJAAN DI BERANDA -->
+<section class="home-search-section">
+
+    <div class="section-heading">
+        <p class="section-label">TEMUKAN SEJARAH</p>
+        <h2>Jelajahi Kerajaan</h2>
+        <p>
+            Cari nama kerajaan untuk menemukan sejarah
+            dan peninggalannya.
+        </p>
+    </div>
+
+    <div class="search-container">
+
+        <input
+            type="text"
+            id="searchKingdom"
+            placeholder="Cari nama kerajaan..."
+            oninput="searchKingdoms()"
+        >
+
+        <button type="button" onclick="searchKingdoms()">
+            🔍
+        </button>
+
+    </div>
+
+    <!-- HASIL PENCARIAN -->
+    <div class="kingdom-grid" id="homeSearchResults"></div>
+
+</section>
+
 
         <!-- PILIHAN KERAJAAN -->
         <section class="kingdom-section" id="sejarah">
