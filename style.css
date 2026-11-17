@@ -654,39 +654,56 @@ footer p {
 }
 
 
+
 /* =========================
-   SEARCH BOX NUSAVERA
+   SEARCH KERAJAAN BERANDA
 ========================= */
+
+.home-search-section {
+    padding: 65px 8% 75px;
+    background: #f8f5ef;
+}
+
+.home-search-section .section-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
 
 .search-container {
     width: 100%;
-    max-width: 650px;
-    margin: 0 auto 45px;
-    padding: 8px;
+    max-width: 950px;
+    height: 105px;
+    margin: 0 auto 40px;
+    padding: 12px 12px 12px 35px;
+
     display: flex;
     align-items: center;
-    background: #ffffff;
+    gap: 12px;
+
+    background: #fff;
     border: 2px solid #bd965c;
-    border-radius: 12px;
-    box-shadow: 0 6px 20px rgba(48, 39, 31, 0.10);
-    transition: 0.3s ease;
+    border-radius: 18px;
+
+    box-shadow: 0 10px 25px rgba(48,39,31,0.10);
+    transition: 0.3s;
 }
 
 .search-container:focus-within {
     border-color: #55412f;
-    box-shadow: 0 5px 20px rgba(189, 150, 92, 0.25);
-    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(189,150,92,0.2);
 }
 
 .search-container input {
     flex: 1;
     min-width: 0;
-    padding: 15px 18px;
+    height: 100%;
+
     border: none;
     outline: none;
     background: transparent;
+
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 19px;
     color: #30271f;
 }
 
@@ -695,10 +712,12 @@ footer p {
 }
 
 .search-container button {
-    width: 52px;
-    height: 48px;
+    width: 76px;
+    height: 70px;
+
     border: none;
-    border-radius: 8px;
+    border-radius: 12px;
+
     background: #bd965c;
     color: white;
     font-size: 25px;
@@ -710,96 +729,50 @@ footer p {
     background: #55412f;
 }
 
+#homeSearchResults {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#homeSearchResults:empty {
+    display: none;
+}
+
 .no-result {
     grid-column: 1 / -1;
-    text-align: center;
-    padding: 50px 20px;
     background: white;
-    border: 1px solid #e9dfcf;
-    border-radius: 12px;
+    border-radius: 8px;
+    padding: 40px 20px;
+    text-align: center;
     color: #786d62;
 }
 
 .no-result h3 {
     font-family: 'Playfair Display', serif;
     color: #55412f;
-    margin-bottom: 12px;
-}
-
-.no-result p {
-    font-size: 13px;
-    line-height: 1.8;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 600px) {
+
+    .home-search-section {
+        padding: 50px 6%;
+    }
+
     .search-container {
-        margin-bottom: 30px;
+        height: 65px;
+        padding: 7px 8px 7px 15px;
+        border-radius: 12px;
     }
 
     .search-container input {
-        font-size: 12px;
-        padding: 12px;
+        font-size: 13px;
     }
-
-   
-/* SEARCH BOX */
-
-.search-container {
-    width: 100%;
-    max-width: 650px;
-    height: 65px;
-    margin: 0 auto 40px;
-    padding: 7px 8px 7px 20px;
-
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-    background: #ffffff;
-    border: 2px solid #bd965c;
-    border-radius: 12px;
-
-    box-shadow: 0 5px 20px rgba(48, 39, 31, 0.12);
-}
-
-.search-container input {
-    flex: 1;
-    min-width: 0;
-    height: 100%;
-
-    border: none !important;
-    outline: none !important;
-    background: transparent !important;
-
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    color: #30271f;
-}
-
-.search-container input::placeholder {
-    color: #a69a8c;
-}
-
-.search-container button {
-    width: 48px;
-    height: 45px;
-
-    border: none;
-    border-radius: 8px;
-
-    background: #bd965c;
-    color: white;
-
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.search-container button:hover {
-    background: #55412f;
-}
 
     .search-container button {
         width: 45px;
-        height: 43px;
+        height: 45px;
+        font-size: 19px;
     }
+
 }
