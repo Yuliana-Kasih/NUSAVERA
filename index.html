@@ -128,12 +128,25 @@
 
         <section class="kingdom-list-section">
 
-            <div class="section-heading">
-                <h2>Jelajahi Kerajaan</h2>
-                <p>Pilih kerajaan untuk membaca sejarah dan peninggalannya.</p>
-            </div>
+           
+<div class="section-heading">
+    <h2>Jelajahi Kerajaan</h2>
+    <p>Pilih kerajaan untuk membaca sejarah dan peninggalannya.</p>
+</div>
 
-            <div class="kingdom-grid" id="kingdomGrid"></div>
+<!-- SEARCH KERAJAAN -->
+<div class="search-container">
+    <input
+        type="text"
+        id="searchKingdom"
+        placeholder="Cari nama kerajaan, contoh: Majapahit..."
+        oninput="searchKingdoms()"
+    >
+    <button type="button" onclick="searchKingdoms()">⌕</button>
+</div>
+
+<div class="kingdom-grid" id="kingdomGrid"></div>
+
 
         </section>
 
