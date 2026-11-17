@@ -1,4 +1,4 @@
-
+ B
 /* =========================
    DATA KERAJAAN
 ========================= */
@@ -314,27 +314,25 @@ function showKingdoms(category) {
 
 
 
+
 /* =========================
-   SEARCH KERAJAAN
+   SEARCH KERAJAAN BERANDA
 ========================= */
 
 function searchKingdoms() {
 
     const keyword = document
         .getElementById("searchKingdom")
-        .value
-        .trim()
-        .toLowerCase();
+        .value.trim().toLowerCase();
 
-    const grid = document.getElementById("kingdomGrid");
+    const resultsContainer =
+        document.getElementById("homeSearchResults");
 
-    const title = document.getElementById("kingdomTitle");
+    if (!keyword) {
+        resultsContainer.innerHTML = "";
+        return;
+    }
 
-    const label = document.getElementById("kingdomLabel");
-
-    const description = document.getElementById("kingdomDescription");
-
-    // Mengambil seluruh data kerajaan
     let allKingdoms = [];
 
     Object.keys(kingdoms).forEach(category => {
@@ -351,34 +349,17 @@ function searchKingdoms() {
 
     });
 
-    // Mencari berdasarkan nama kerajaan
     const results = allKingdoms.filter(kingdom =>
         kingdom.name.toLowerCase().includes(keyword)
     );
 
-    // Mengubah judul halaman
-    title.textContent = keyword
-        ? "Hasil Pencarian Kerajaan"
-        : "Daftar Kerajaan";
-
-    label.textContent = "PENCARIAN SEJARAH NUSANTARA";
-
-    description.textContent = keyword
-        ? `Ditemukan ${results.length} kerajaan yang sesuai dengan pencarian "${keyword}".`
-        : "Masukkan nama kerajaan untuk mencari sejarahnya.";
-
-    // Mengosongkan hasil sebelumnya
-    grid.innerHTML = "";
-
-    // Jika tidak ada hasil
     if (results.length === 0) {
 
-        grid.innerHTML = `
+        resultsContainer.innerHTML = `
             <div class="no-result">
                 <h3>Kerajaan Tidak Ditemukan</h3>
                 <p>
-                    Maaf, nama kerajaan yang kamu cari tidak tersedia.
-                    Coba gunakan keyword lainnya.
+                    Coba masukkan nama kerajaan lainnya.
                 </p>
             </div>
         `;
@@ -386,51 +367,49 @@ function searchKingdoms() {
         return;
     }
 
-    // Menampilkan hasil pencarian
-    results.forEach(kingdom => {
+    resultsContainer.innerHTML = results.map(kingdom => `
 
-        grid.innerHTML += `
-            <article class="kingdom-card"
-                onclick="showDetail(${kingdom.index}, '${kingdom.category}')">
+        <article class="kingdom-card"
+            onclick="showDetail(${kingdom.index}, '${kingdom.category}')">
 
-                <img
-                    src="${kingdom.image}"
-                    alt="${kingdom.name}"
-                    loading="lazy"
-                >
+            <img
+                src="${kingdom.image}"
+                alt="${kingdom.name}"
+                loading="lazy"
+            >
 
-                <div class="kingdom-info">
+            <div class="kingdom-info">
 
-                    <span>
-                        ${kingdom.category === "hindu"
-                            ? "HINDU-BUDDHA"
-                            : "KERAJAAN ISLAM"}
-                    </span>
+                <span>
+                    ${kingdom.category === "hindu"
+                        ? "HINDU-BUDDHA"
+                        : "KERAJAAN ISLAM"}
+                </span>
 
-                    <h3>${kingdom.name}</h3>
+                <h3>${kingdom.name}</h3>
 
-                    <p>${kingdom.short}</p>
+                <p>${kingdom.short}</p>
 
-                    <span class="read-more">
-                        Baca Selengkapnya →
-                    </span>
+                <span class="read-more">
+                    Baca Selengkapnya →
+                </span>
 
-                </div>
+            </div>
 
-            </article>
-        `;
+        </article>
 
-    });
+    `).join("");
 
 }
-
 
 
 /* =========================
    MENAMPILKAN DETAIL KERAJAAN
 ========================= */
 
-function showDetail(index) {
+function showDetail(index, category = curentCategory) {
+
+    currentCategory = category;
 
     const kingdom = kingdoms[currentCategory][index];
 
