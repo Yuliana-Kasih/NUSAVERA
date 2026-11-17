@@ -313,6 +313,119 @@ function showKingdoms(category) {
 }
 
 
+
+/* =========================
+   SEARCH KERAJAAN
+========================= */
+
+function searchKingdoms() {
+
+    const keyword = document
+        .getElementById("searchKingdom")
+        .value
+        .trim()
+        .toLowerCase();
+
+    const grid = document.getElementById("kingdomGrid");
+
+    const title = document.getElementById("kingdomTitle");
+
+    const label = document.getElementById("kingdomLabel");
+
+    const description = document.getElementById("kingdomDescription");
+
+    // Mengambil seluruh data kerajaan
+    let allKingdoms = [];
+
+    Object.keys(kingdoms).forEach(category => {
+
+        kingdoms[category].forEach((kingdom, index) => {
+
+            allKingdoms.push({
+                ...kingdom,
+                category: category,
+                index: index
+            });
+
+        });
+
+    });
+
+    // Mencari berdasarkan nama kerajaan
+    const results = allKingdoms.filter(kingdom =>
+        kingdom.name.toLowerCase().includes(keyword)
+    );
+
+    // Mengubah judul halaman
+    title.textContent = keyword
+        ? "Hasil Pencarian Kerajaan"
+        : "Daftar Kerajaan";
+
+    label.textContent = "PENCARIAN SEJARAH NUSANTARA";
+
+    description.textContent = keyword
+        ? `Ditemukan ${results.length} kerajaan yang sesuai dengan pencarian "${keyword}".`
+        : "Masukkan nama kerajaan untuk mencari sejarahnya.";
+
+    // Mengosongkan hasil sebelumnya
+    grid.innerHTML = "";
+
+    // Jika tidak ada hasil
+    if (results.length === 0) {
+
+        grid.innerHTML = `
+            <div class="no-result">
+                <h3>Kerajaan Tidak Ditemukan</h3>
+                <p>
+                    Maaf, nama kerajaan yang kamu cari tidak tersedia.
+                    Coba gunakan keyword lainnya.
+                </p>
+            </div>
+        `;
+
+        return;
+    }
+
+    // Menampilkan hasil pencarian
+    results.forEach(kingdom => {
+
+        grid.innerHTML += `
+            <article class="kingdom-card"
+                onclick="showDetail(${kingdom.index}, '${kingdom.category}')">
+
+                <img
+                    src="${kingdom.image}"
+                    alt="${kingdom.name}"
+                    loading="lazy"
+                >
+
+                <div class="kingdom-info">
+
+                    <span>
+                        ${kingdom.category === "hindu"
+                            ? "HINDU-BUDDHA"
+                            : "KERAJAAN ISLAM"}
+                    </span>
+
+                    <h3>${kingdom.name}</h3>
+
+                    <p>${kingdom.short}</p>
+
+                    <span class="read-more">
+                        Baca Selengkapnya →
+                    </span>
+
+                </div>
+
+            </article>
+        `;
+
+    });
+
+}
+
+
+
 /* =========================
    MENAMPILKAN DETAIL KERAJAAN
 ========================= */
